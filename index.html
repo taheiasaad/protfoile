@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taheia Saad - Portfolio</title>
+<style>
+    body {font-family: Arial, sans-serif; background:#0c0c0c; color:white; margin:0; padding:0;}
+    .container {max-width: 1000px; margin: auto; padding:20px;}
+    .header {text-align:center; padding:40px 0;}
+    .header img {width:180px; height:180px; border-radius:50%; border:4px solid #8b5cf6;}
+    .header h1 {font-size:2.5rem; margin:15px 0; color:#8b5cf6;}
+    .header p {font-size:1.2rem; color:#cbd5e1;}
+
+    .section {margin:40px 0; padding:20px; background:#1a1a2e; border-radius:12px;}
+    .section h2 {color:#ec4899; margin-bottom:20px; text-align:center;}
+
+    /* About */
+    .about p {line-height:1.7; color:#cbd5e1; text-align:center;}
+
+    /* Skills */
+    .skills {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+    .skill-card {background:#111827; padding:15px; border-radius:10px; border:1px solid #8b5cf6;}
+    .skill-card h3 {color:#8b5cf6; margin-bottom:10px;}
+    .skill-card ul {list-style:none; padding:0;}
+    .skill-card li {margin:5px 0; color:#cbd5e1;}
+
+    /* Education */
+    .education {text-align:center; color:#cbd5e1; line-height:1.7;}
+    .education h3 {color:#8b5cf6; margin-bottom:10px;}
+
+    /* Services */
+    .services {display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px;}
+    .service-card {background:#111827; padding:15px; border-radius:10px; border:1px solid #8b5cf6;}
+    .service-card h3 {color:#8b5cf6; margin-bottom:10px;}
+    .service-card p {color:#cbd5e1; margin:8px 0; line-height:1.6;}
+
+    /* Projects & Certifications use same card style */
+    .projects {display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px;}
+    .project-card {background:#111827; padding:15px; border-radius:10px; border:1px solid #8b5cf6;}
+    .project-card img {width:100%; border-radius:10px; margin-bottom:10px;}
+    .project-title {font-size:1.3rem; font-weight:bold; color:#8b5cf6; margin-bottom:10px;}
+    .project-description {color:#cbd5e1; margin-bottom:10px;}
+    .project-link a {color:#a855f7; text-decoration:none;}
+
+    /* Contact */
+    .contact {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+    .contact-card {background:#111827; padding:15px; border-radius:10px; border:1px solid #8b5cf6;}
+    .contact-card h3 {color:#8b5cf6; margin-bottom:10px;}
+    .contact-card p {color:#cbd5e1;}
+    .contact-card a {color:#a855f7; text-decoration:none;}
+</style>
+</head>
+<body>
+<div class="container">
+    <!-- Header -->
+    <div class="header">
+        <img src="https://i.postimg.cc/L5rQ72W2/IMG-20250827-WA0007.jpg" alt="Taheia Saad">
+        <h1>Taheia Saad</h1>
+        <p>Data Scientist & Machine Learning Engineer</p>
+    </div>
+
+    <!-- About -->
+    <div class="section about">
+        <h2>About Me</h2>
+        <p>
+            I am a Data Scientist and Machine Learning Engineer with strong experience in Statistics and Linear Algebra.  
+            Skilled in Data Analysis using Python, SQL, and Power BI.  
+            Passionate about discovering insights from data and building ML solutions that solve real-world problems.
+        </p>
+    </div>
+
+    <!-- Education -->
+    <div class="section education">
+        <h2>Education</h2>
+        <h3>Bachelor’s Degree in Data Science</h3>
+        <p>Faculty of Computer and Data Science, Alexandria University (2023 - 2027)</p>
+        <p><strong>Relevant Coursework:</strong> Machine Learning, AI, Databases, Data Science Tools, Data Structures</p>
+    </div>
+
+    <!-- Skills -->
+    <div class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill-card">
+                <h3>Programming & ML</h3>
+                <ul>
+                    <li>Python (NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch)</li>
+                    <li>SQL</li>
+                    <li>Machine Learning Models</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Data Science & Stats</h3>
+                <ul>
+                    <li>Linear Algebra</li>
+                    <li>Probability & Hypothesis Testing</li>
+                    <li>Regression Analysis</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Data Visualization</h3>
+                <ul>
+                    <li>Power BI, Power Query</li>
+                    <li>Matplotlib, Seaborn, Plotly</li>
+                    <li>Interactive Dashboards</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Databases</h3>
+                <ul>
+                    <li>MySQL, PostgreSQL</li>
+                    <li>MongoDB</li>
+                    <li>SQL Server</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Analytical Thinking</li>
+                    <li>Team Collaboration</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="section">
+        <h2>Services</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3>📊 Data Analysis & Visualization</h3>
+                <p>Perform in-depth data analysis to uncover actionable insights.</p>
+                <p>Build interactive dashboards and reports using Power BI, Python, Matplotlib, Seaborn, Plotly.</p>
+            </div>
+            <div class="service-card">
+                <h3>🤖 Machine Learning & AI Solutions</h3>
+                <p>Develop predictive models for classification, regression, clustering, and time series forecasting.</p>
+                <p>Apply NLP for text analysis and sentiment analysis.</p>
+                <p>Optimize models using cross-validation, hyperparameter tuning, and feature engineering.</p>
+                <p>Deploy machine learning models into production environments.</p>
+            </div>
+            <div class="service-card">
+                <h3>🧹 Data Cleaning & Preprocessing</h3>
+                <p>Handle missing values, outliers, and noisy data.</p>
+                <p>Transform raw datasets into structured, usable formats.</p>
+                <p>Feature scaling, encoding, and dimensionality reduction.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="section">
+        <h2>Projects</h2>
+        <div class="projects">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="https://i.postimg.cc/WbY0s5pq/temperature.png" alt="Temperature Prediction Project">
+                <div class="project-title">🌡 Temperature Prediction</div>
+                <div class="project-description">Machine Learning model for predicting temperature with deployment.</div>
+                <div class="project-link">
+                    <a href="https://github.com/taheiasaad/Temperature-Prediction-with-Deployment2" target="_blank">🔗 View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="https://i.postimg.cc/DfMzZHsh/twitter.jpg" alt="Twitter Sentiment Analysis">
+                <div class="project-title">🐦 Twitter Sentiment Analysis</div>
+                <div class="project-description">NLP models to analyze tweets as positive, negative, or neutral.</div>
+                <div class="project-link">
+                    <a href="#" target="_blank">🔗 View Project (soon)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certifications -->
+    <div class="section">
+        <h2>Certifications</h2>
+        <div class="projects">
+            <!-- AWS Certification -->
+            <div class="project-card">
+                <img src="https://i.postimg.cc/Vvv5zY0C/IMG-20250914-152253.jpg" alt="AWS Cloud Fundamentals Certification">
+                <div class="project-title">AWS Cloud Fundamentals</div>
+                <div class="project-description">
+                    Certification covering AWS core services, cloud concepts, and fundamentals of cloud computing.
+                </div>
+                <div class="project-link">
+                    <a href="#" target="_blank">🔗 View Credential</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="section">
+        <h2>Contact</h2>
+        <div class="contact">
+            <div class="contact-card">
+                <h3>Email</h3>
+                <p><a href="mailto:taheiasaad@example.com">taheiasaad@example.com</a></p>
+            </div>
+            <div class="contact-card">
+                <h3>LinkedIn</h3>
+                <p><a href="https://linkedin.com/in/taheiasaad" target="_blank">linkedin.com/in/taheiasaad</a></p>
+            </div>
+            <div class="contact-card">
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/taheiasaad" target="_blank">github.com/taheiasaad</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
